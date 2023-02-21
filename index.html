@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/style/all.css">
+    <link rel="stylesheet" href="./assets/style/all.css" />
     <link rel="stylesheet" href="./assets/style/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/style/index.css" />
-
   </head>
   <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
@@ -48,27 +47,27 @@
     </nav>
     <div id="gotop"></div>
     <div class="container-fluid bg-black p-0">
-      <img src="./assets/images/banner-1.jpg" class="vh-100" alt="banner-1" />
+      <img src="./assets/images/banner-1.jpg" class="vh-100" style="display: block; margin: auto" alt="banner-1" />
     </div>
-    <div class="container-fluid bg-black pt-5">
+    <div class="container-fluid bg-black bg-triangle">
       <div class="container text-center">
-        <h3 class="title d-inline">解決方案</h3>
-        <div class="row mt-5">
+        <h3 class="title">解決方案</h3>
+        <div class="row">
           <div class="col-md-4">
-            <div class="item px-3 py-4">
+            <div class="item">
               <img src="./assets/images/ICT.svg" alt="ICT" />
               <h4 class="text-bold mt-4">ICT資通訊產業發展</h4>
-              <p>
+              <p class="text-content">
                 將資通訊（ICT）產業的發展視為重要目標，積極擴大產品代理、增進專案建置的實力，加上智慧雲端系統，提供國內外企業在資通訊領域的專業協助。
                 <br /><br />如：企業雲、教育雲，實現互聯互通，資訊整合與共享的服務。
               </p>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="item px-3 py-4">
+            <div class="item">
               <img src="./assets/images/Internet-setting.svg" alt="Internet-setting" />
               <h4 class="text-bold mt-4">企業網路系統建置與管理</h4>
-              <p>
+              <p class="text-content">
                 提供企業電腦網路系統之建置與管理、各項資訊系統之開發與維護、資料庫與資訊安全之維護與管理、軟體使用管制及導入服務、遠端存取操作的IT服務。
                 <br /><br />
                 如：ERP、CRM及SCM系統之開發及維護。
@@ -76,10 +75,10 @@
             </div>
           </div>
           <div class="col-md-4">
-            <div class="item px-3 py-4">
+            <div class="item">
               <img src="./assets/images/Innovation-develop.svg" alt="Innovation-develop" />
               <h4 class="text-bold mt-4">創新開發服務</h4>
-              <p>
+              <p class="text-content">
                 專注於智慧平台開發，整合室內定位、導購導覽、無線標感應與影像辨識等創新服務，提供不同場域智慧應用服務的解決方案，目標是「一套平台、多樣服務」。<br /><br />
                 如：商場智慧零售的虛實整合營運、醫院提供就診與健檢服務、工廠生產力4.0智慧管理、學校、住宅、商辦、廠房安全監控。
               </p>
@@ -88,14 +87,14 @@
         </div>
       </div>
     </div>
-    <div class="container text-center mt-5">
-      <h3 class="title d-inline text-body">合作夥伴</h3>
-      <div class="mt-5" style="height: 200px; width: 100%; background: #aaa"></div>
+    <div class="container text-center">
+      <h3 class="title text-body">合作夥伴</h3>
+      <div class="" style="height: 200px; width: 100%; background: #aaa"></div>
     </div>
     <div class="container-fluid bg-gray py-5">
-      <div class="container bg-white text-center p-5">
-        <h3 class="title d-inline text-body">最新消息</h3>
-        <table class="table table-sm bg-light mt-5 bg-white">
+      <div class="container bg-white text-center shadow p-5">
+        <h3 class="title text-body">最新消息</h3>
+        <table class="table table-sm bg-light bg-white">
           <tbody>
             <tr>
               <th scope="row">2022-09-05</th>
@@ -121,12 +120,73 @@
         </table>
       </div>
     </div>
-    <div class="container text-center py-5">
-      <h3 class="title d-inline text-body">關於宜眾</h3>
+    <div class="container pb-5">
+      <h3 class="title text-body">關於宜眾</h3>
+      <div class="row">
+        <div class="col">
+          <ul class="tabs d-flex justify-content-center">
+            <li class="active" rel="tab1">
+              <h5>認識宜眾</h5>
+            </li>
+            <li rel="tab2"><h5>經營理念</h5></li>
+            <li rel="tab3"><h5>獲獎認證</h5></li>
+          </ul>
+          <div class="tab_container">
+            <!-- #tab1 -->
+            <div id="tab1" class="tab_content">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="./assets/images/ezoom-intro.jpg" class="w-100" alt="ezoom-intro" />
+                </div>
+                <div class="col-md-8">
+                  <p>
+                    1996年成立宜眾科技股份有限公司，2012年7月變更為宜眾資訊股份有限公司，2013年5月由原帆宣資訊系統事業處(MIS)團隊成員加入後，於台北、新竹、台南等地設有營業據點及服務中心。<br />
+                    公司重視資通訊（ICT）產業的發展，並擴展產品代理與專案建置實力，以滿足企業在資通訊領域的全方位應用，此外亦致力於開發智慧平臺，領域涵蓋智慧製造、智慧教育、智慧醫療、智慧零售、智慧住宅、智慧客服等服務平臺，期望以完整解決方案實現智慧城市的願景。<br />
+                    成立迄今，持續掌握與精進各式雲端服務，從物聯網到AI分析有豐富且完整的系統整合經驗。從品牌價值到技術能力、從實務經驗到跨領域專業，宜眾是值得信賴的最佳合作夥伴。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- #tab2 -->
+            <div id="tab2" class="tab_content">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="./assets/images/manage-1.jpg" class="w-100" alt="manage-1" />
+                </div>
+                <div class="col-md-4">
+                  <img src="./assets/images/manage-2.jpg" class="w-100" alt="manage-2" />
+                </div>
+                <div class="col-md-4">
+                  <p>
+                    身為帆宣集團百分之百投資的子公司，職場環境措施一切依循著帆宣集團的政策與作法，秉持企業公民的精神，以行動實踐社會公益，我們帶領企業員工一同投入於「慈善賑災」、「弱勢關懷」、「藝文培養」及「志工服務」四大方向，並重視環境生態保護及在地發展，也將公益導入企業文化，傳承向善的力量，反饋社會。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- #tab3 -->
+            <div id="tab3" class="tab_content">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="./assets/images/license-1.jpg" class="w-100" alt="license-1" />
+                  <p class="text-center text-content">身為帆宣集團百分之百投資的子公司</p>
+                </div>
+                <div class="col-md-4">
+                  <img src="./assets/images/license-2.jpg" class="w-100" alt="license-2" />
+                  <p class="text-center text-content">身為帆宣集團百分之百投資的子公司</p>
+                </div>
+                <div class="col-md-4">
+                  <img src="./assets/images/license-3.jpg" class="w-100" alt="license-3" />
+                  <p class="text-center text-content">身為帆宣集團百分之百投資的子公司</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="container-fluid bg-gray py-5">
-      <div class="container text-center">
-        <h3 class="title d-inline text-body">聯絡我們</h3>
+    <div class="container-fluid bg-gray">
+      <div class="container text-center pb-5">
+        <h3 class="title text-body">聯絡我們</h3>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3637.6510784466554!2d121.60863137330972!3d25.05580619746606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab58bb9283f1%3A0x80f7e895acb04cbb!2z5a6c55y-6LOH6KiK6IKh5Lu95pyJ6ZmQ5YWs5Y-4!5e0!3m2!1szh-TW!2stw!4v1676962872923!5m2!1szh-TW!2stw"
           width="1140"
@@ -135,7 +195,6 @@
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-          class="mt-5"
         ></iframe>
       </div>
     </div>
@@ -177,12 +236,44 @@
         bottom: '2em',
         right: '2em',
       });
-  
+
       // nav 滑下來變色
       $(document).scroll(function () {
         var $nav = $('.fixed-top');
         $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
       });
+
+      // tabbed content
+      $('.tab_content').hide();
+      $('.tab_content:first').show();
+
+      /* if in tab mode */
+      $('ul.tabs li').click(function () {
+        $('.tab_content').hide();
+        var activeTab = $(this).attr('rel');
+        $('#' + activeTab).fadeIn();
+
+        $('ul.tabs li').removeClass('active');
+        $(this).addClass('active');
+
+        $('.tab_drawer_heading').removeClass('d_active');
+        $(".tab_drawer_heading[rel^='" + activeTab + "']").addClass('d_active');
+      });
+      /* if in drawer mode */
+      $('.tab_drawer_heading').click(function () {
+        $('.tab_content').hide();
+        var d_activeTab = $(this).attr('rel');
+        $('#' + d_activeTab).fadeIn();
+
+        $('.tab_drawer_heading').removeClass('d_active');
+        $(this).addClass('d_active');
+
+        $('ul.tabs li').removeClass('active');
+        $("ul.tabs li[rel^='" + d_activeTab + "']").addClass('active');
+      });
+
+      /* Extra class "tab_last" to add border to right side of last tab */
+      $('ul.tabs li').last().addClass('tab_last');
     </script>
   </body>
 </html>
