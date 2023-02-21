@@ -1,0 +1,48 @@
+*,
+*::before,
+*:after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  background-color: #e5e5e5;
+}
+img {
+  vertical-align: middle;
+}
+
+/* colors  */
+.bg-black {
+  background-color: #000;
+}
+.bg-white {
+  background-color: #fff;
+}
+.bg-gray {
+  background-color: #f8f9fa;
+}
+
+/* nav 滑下來變色 */
+.fixed-top.scrolled {
+  background-color: rgb(0, 0, 0, 0.5);
+  transition: background-color 400ms linear;
+}
+
+.title {
+  color: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #cc171a;
+  padding: 16px 24px;
+  margin-bottom: -16px;
+}
+
+.item {
+  border-width: 2px;
+  border-style: solid;
+  height: 100%;
+  background-color: #fff;
+}
