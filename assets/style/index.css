@@ -13,6 +13,9 @@ body {
 img {
   vertical-align: middle;
 }
+.navbar {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
 
 /* colors  */
 .bg-black {
@@ -32,6 +35,18 @@ img {
 .fixed-top.scrolled {
   background-color: rgb(0, 0, 0, 0.5);
   transition: background-color 400ms linear;
+}
+
+#gotop {
+  z-index: 2;
+}
+
+.main-banner {
+  height: 100vh;
+  background-image: url(../images/banner-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .bg-triangle {
