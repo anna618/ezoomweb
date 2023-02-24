@@ -5,6 +5,10 @@
 }
 a {
   text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: #fff;
 }
 body {
   font-family: 'Noto Sans TC', sans-serif;
