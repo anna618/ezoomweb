@@ -126,6 +126,7 @@ img {
   z-index: 2;
 }
 
+/* main */
 .main-banner {
   height: 100vh;
   background-image: url(../images/banner-1.jpg);
@@ -162,7 +163,7 @@ img {
 }
 
 .carousel-inner {
-  padding-bottom: 64px;
+  padding-bottom: 80px;
 }
 .carousel-indicators li {
   background-color: #000;
